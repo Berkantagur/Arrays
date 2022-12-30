@@ -22,9 +22,11 @@ scanf("%d",&vize[i]);
 printf("Please enter %d. student's final score:",i+1);
 scanf("%d",&final[i]);
 
+printf("\n");
 average[i] = (float) vize[i]*0.40 + (float) final[i]*0.60;
 
 }
+
 
 for(i=0; i<students; i++){
 
