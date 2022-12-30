@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 int main(){
-int row, column, i, j, c;
+int row, column, i, j, c=0;
 int array[100][100];
 
 printf("Please enter number of rows:");
